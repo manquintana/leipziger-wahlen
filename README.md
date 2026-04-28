@@ -5,7 +5,8 @@ This project explores the evolution of vote shares per party in Leipzig mayoral 
 
 ## Dashboard
 
-Link to the dashboard: <a href="https://datastudio.google.com/s/gagAjMW7yy8">Google Data Studio</a>
+Link to view the dashboard: <a href="https://datastudio.google.com/s/kn_16pWBZ9g">Google Data Studio</a>
+
 
 
 ## Data Source
