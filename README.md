@@ -4,7 +4,9 @@ This project explores the evolution of vote shares per party in Leipzig mayoral 
 
 ## Dashboard
 You can check the Github pages version (just click on the image):
-![Dashboard Preview](https://raw.githubusercontent.com/manquintana/leipziger-wahlen/refs/heads/main/assets/preview.png)
+<a href="https://manquintana.github.io/leipziger-wahlen/" target="_blank">
+  <img src="https://raw.githubusercontent.com/manquintana/leipziger-wahlen/refs/heads/main/assets/preview.png" alt="Dashboard Preview" />
+</a>
 
 or open the Google Data Studio version: <a href="https://datastudio.google.com/reporting/72c5e436-8253-4fd0-b8c5-b200c4692c41">View dashboard</a>
 
