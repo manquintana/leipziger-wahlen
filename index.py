@@ -16,5 +16,5 @@ df_votes = df_votes.rename(columns={"name": "party","wert": "value", "jahr_Nr": 
 
 df_votes["year"] = df_votes["year"].astype(str).str[0:4]
 
-df_votes.to_json("/home/mqu/projects/leipziger-wahlen/data/historic.json")
-df_votes.to_csv("/home/mqu/projects/leipziger-wahlen/data/historic.csv", index = None)
+df_votes.to_json("data/historic.json")
+df_votes.to_csv("data/historic.csv", index = None)
