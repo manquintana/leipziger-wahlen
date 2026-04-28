@@ -14,6 +14,7 @@ df_votes = pd.read_json(data_url)
 df_votes = df_votes.drop(["merkmal_1", "merkmal_2", "merkmal_3", "merkmal_4", "periode", "kategorie_Nr", "rubrik_Nr", "jahr", "uri", "id", "einheit", "kategorie", "rubrik"], axis = 1)
 df_votes = df_votes.rename(columns={"name": "party","wert": "value", "jahr_Nr": "year"})
 
-df_votes["date"] = df_votes["year"].astype(str).str[0:4]
+df_votes["year"] = df_votes["year"].astype(str).str[0:4]
 
-df_votes.to_json("data/historic.json")
+df_votes.to_json("/home/mqu/projects/leipziger-wahlen/data/historic.json")
+df_votes.to_csv("/home/mqu/projects/leipziger-wahlen/data/historic.csv", index = None)
